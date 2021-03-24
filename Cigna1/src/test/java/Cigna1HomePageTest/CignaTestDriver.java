@@ -49,7 +49,7 @@ public class CignaTestDriver extends WebAPI {
     }
 
 
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void testbackToUnderstandingInsurance() throws InterruptedException {
         testanHmoIsRightForYou();
         cignaPage.backToUnderstandingInsurance();
