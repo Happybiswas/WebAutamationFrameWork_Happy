@@ -11,11 +11,10 @@
     <modules>
         <module>Generic</module>
         <module>Amazon</module>
-        <module>Cigna</module>
+        <module>Cigna1</module>
         <module>CNN</module>
         <module>TDBank</module>
         <module>CapitalOne</module>
-        <module>Cigna1</module>
     </modules>
 
     <properties>
