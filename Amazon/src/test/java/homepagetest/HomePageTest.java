@@ -19,7 +19,7 @@ public class HomePageTest extends WebAPI {
     }
 
 
-    @Test(enabled = false)
+    @Test(enabled =true)
     public void testSearchBox() throws InterruptedException {
         homePage.searchBox();
         String expectedText = "\"Mask\"";
@@ -29,7 +29,7 @@ public class HomePageTest extends WebAPI {
     }
 
 //its working
-    @Test(enabled = false)
+    @Test(enabled = true)
 
     public void testclickAllSearchButton() throws InterruptedException {
         // checkSearchBox();
@@ -64,7 +64,7 @@ public class HomePageTest extends WebAPI {
 
     }
 //working
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void testClickSingInEmail() throws InterruptedException {
 
         homePage.ClickSingInEmail();

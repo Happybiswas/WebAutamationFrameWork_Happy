@@ -39,7 +39,7 @@ public class CapitalOneTestPage extends WebAPI {
         Assert.assertEquals(actualText, expectedText, "product does not match");
     }
 
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void testCreditCardMouseHoover() throws InterruptedException {
         capitalOnepage.CreditCardMouseHoover();
         String expectedText = "TYPES OF CREDIT CARDS";
@@ -57,7 +57,7 @@ public class CapitalOneTestPage extends WebAPI {
         Assert.assertEquals(actualText, expectedText, "product does not match");
     }
 
-    @Test(enabled =true)
+    @Test(enabled =false)
     public void testVentureRewardsCard() throws InterruptedException {
         testTravelRewardCardCase();
         capitalOnepage.VentureRewardsCard();

@@ -38,7 +38,7 @@ public class CignaTestDriver extends WebAPI {
 
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void testanHmoIsRightForYou() throws InterruptedException {
         testcommonInsurancePlaneTypeCase();
         cignaPage.anHmoIsRightForYou();
@@ -49,7 +49,7 @@ public class CignaTestDriver extends WebAPI {
     }
 
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void testbackToUnderstandingInsurance() throws InterruptedException {
         testanHmoIsRightForYou();
         cignaPage.backToUnderstandingInsurance();
@@ -87,7 +87,7 @@ public class CignaTestDriver extends WebAPI {
 
     }
 
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void testRegisterCigna() throws InterruptedException {
         cignaPage.RegisterCigna();
         String expectedText = "Activate your myCigna account";
